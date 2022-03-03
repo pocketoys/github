@@ -27,3 +27,6 @@ git push -u origin main
 
 // 削除
 git rm ファイル名
+
+// グレップ
+git grep "検索ワード"
