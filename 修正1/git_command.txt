@@ -1,0 +1,32 @@
+// ユーザとメールアドレスを設定する
+git config --global user.name ユーザー名
+git config --global user.email メールアドレス
+
+// 設定した内容を確認する。
+git config --global --list
+
+// git init
+Initialized empty Git repository in ディレクトリ
+
+// リポジトリを削除
+rm -rf .git
+
+cd ディレクトリ
+
+// ローカル追加
+git add .
+
+// クローンを作成
+git clone https://github.com/XXXXXX/XXXXXX
+
+// コミットする。
+git commit -m "コメント入力"
+
+// 反映
+git push -u origin main
+
+// 削除
+git rm ファイル名
+
+// グレップ
+git grep "検索ワード"
